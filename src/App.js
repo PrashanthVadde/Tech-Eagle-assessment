@@ -9,7 +9,6 @@ import RunningRaceContext from "./context/runningRaceContext"
 
 const App = () => {
   const localStorageRunnersData = JSON.parse(localStorage.getItem("localStorageRunnersData"))
-  // const localStorageData = localStorageRunnersData === null ? [] : {localStorageRunnersData}
   const [runnersData, setRunnersData ] = useState(localStorageRunnersData !== null ? localStorageRunnersData : [])
 
   const onAddRunner = (data) => {
@@ -24,8 +23,6 @@ const App = () => {
   useEffect(() => {
     localStorage.setItem("localStorageRunnersData", JSON.stringify(runnersData))
   },)
-
-  // console.log("Runners DATA::::", runnersData)
   
   return(
     <RunningRaceContext.Provider value={{runnersData, onAddRunner, onDeleteRunner}}>
