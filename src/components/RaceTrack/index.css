@@ -1,0 +1,172 @@
+.race-track-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #B0A695;
+  }
+
+  .middle-ground {
+    height: 180px;
+    width: 420px;
+    border-radius: 100px;
+    background-color: #99B080;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timer-container {
+    height: 100px;
+    width: 180px;
+    background-color: #163020;
+    text-align: center;
+    padding: 10px;
+    border-radius: 100px;
+    margin-top: 10px;
+  }
+  
+  .elapsed-time {
+    font-size: 18px;
+    font-weight: 400;
+    color: #A3B763;
+    margin: 0;
+  }
+
+  .time {
+    color: #cbf36e;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .track-length-text {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .one-track {
+    height: 200px;
+    width: 440px;
+    border: 2px solid white;
+    background-color: #EBF3E8;
+  }
+
+  .tract-styles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game-result {
+    
+    width: 50%;
+    padding: 20px;
+    background-color: #EBF3E8;
+    border-radius: 2px;
+  }
+
+  .score-board-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0;
+  }
+
+  .score-board-columns {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .participant-result-item-container {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  }
+
+  .participant-result-item {
+    min-height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #B4BDFF;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .result-column-position {
+    font-size: 18px;
+    font-weight: 500;
+    width: 120px;
+  }
+
+  .result-column-name {
+    font-size: 18px;
+    font-weight: 500;
+    width: 145px;
+  }
+
+  .result-column-speed {
+    font-size: 18px;
+    font-weight: 500;
+    width: 130px;
+  }
+
+  .result-column-start-time {
+    font-size: 18px;
+    font-weight: 500;
+    width: 150px;
+  }
+  
+  .result-column-end-time {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .participant-board-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .back-to-home-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .restart-race-btn {
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D83F31;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+    transform: skew(-20deg);
+    transition: transform 0.3s ease-in-out;
+    margin-top: 12px;
+    align-self: flex-end;
+
+    display: flex;
+    align-items: center;
+  }
+  
